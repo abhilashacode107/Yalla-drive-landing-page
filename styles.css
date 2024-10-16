@@ -61,6 +61,7 @@ header .container {
         display: block !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
+        width: 90% !important;
     }
     .about-content-parent{
         width: 100% !important;
