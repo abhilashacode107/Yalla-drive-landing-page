@@ -1,0 +1,212 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex: 1;
+}
+
+header nav {
+    flex: 2;
+    text-align: right;
+}
+
+header nav ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Get in Touch Button */
+.get-in-touch-btn {
+    background-color: #007bff;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+}
+
+.get-in-touch-btn .arrow {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    transition: transform 0.3s;
+    transform: rotate(-60deg);
+    color: white;
+}
+
+.get-in-touch-btn:hover .arrow {
+    transform: rotate(-60deg) translateX(5px);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background: #f7f7f7;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero-section {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 3rem 0;
+    background: #f7f7f7;
+}
+
+.child-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content-parent,
+.about-content-child {
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Services Section */
+.services {
+    padding: 3rem 0;
+}
+
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-box {
+    flex: 1 1 30%;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .hero-content, .hero-section {
+        flex: 1 1 100%;
+    }
+
+    .child-container {
+        flex-direction: column;
+    }
+
+    .about-content-parent, .about-content-child {
+        flex: 1 1 100%;
+        padding: 1rem;
+    }
+
+    .service-boxes {
+        flex-direction: column;
+    }
+
+    .service-box {
+        flex: 1 1 100%;
+        margin: 0.5rem 0;
+    }
+
+    .app-screenshots, .progress-bar-child-image {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .faq-item {
+        text-align: left;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-content-parent {
+        flex-direction: column;
+    }
+}
