@@ -93,18 +93,18 @@ header .logo {
 }
 
 header nav {
-    margin-left: auto; /* Align navigation to the right */
+    margin-left: auto; 
 }
 
 header nav ul {
     align-items: center;
     list-style: none;
     display: flex;
-    justify-content: flex-end; /* Ensure the links are aligned to the right */
+    justify-content: flex-end; 
 }
 
 header nav ul li {
-    margin-left: 2rem; /* Add space between the links */
+    margin-left: 2rem; 
 }
 
 header nav ul li a {
@@ -140,7 +140,7 @@ header nav ul li a {
 }
 
 .get-in-touch-btn:hover .arrow {
-    transform: rotate(-60deg) translateX(5px); /* Moves the rotated arrow slightly to the right on hover */
+    transform: rotate(-60deg) translateX(5px);
 }
 
 /* Main Banner */
@@ -244,10 +244,10 @@ span{
 }
 
 .dot {
-    width: 30px; /* Outer circle size */
-    height: 30px; /* Outer circle size */
-    border-radius: 50%; /* Make it circular */
-    border: 8px solid #067ff7; /* Outer circle color */
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    border: 8px solid #067ff7; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,24 +256,24 @@ span{
 
 .dot::after {
     content: '';
-    width: 16px; /* Inner circle size */
-    height: 16px; /* Inner circle size */
-    border-radius: 50%; /* Make it circular */
-    background-color: white; /* Inner circle color */
+    width: 16px; 
+    height: 16px; 
+    border-radius: 50%;
+    background-color: white; 
 }
 
 .dot span {
     position: absolute;
-    top: 40px; /* Adjust to position the label under the dot */
-    font-size: 14px; /* Adjust font size as needed */
-    color: black; /* Text color */
+    top: 40px; 
+    font-size: 14px; 
+    color: black; 
     padding-left: 20px;
 }
 
 .line {
-    width: 350px; /* Length of the connecting line */
-    height: 3px; /* Thickness of the connecting line */
-    background-color: #86888b; /* Color of the connecting line */
+    width: 350px; 
+    height: 3px; 
+    background-color: #86888b; 
 }
 
 
@@ -549,8 +549,8 @@ footer {
     object-fit: cover;
     /* position: absolute; */
     top: 0;
-    left: 50px; /* Adjust position as needed */
-    z-index: 2; /* Ensure this image is on top */
+    left: 50px; 
+    z-index: 2;
 }
 
 .hero-section .image1 {
