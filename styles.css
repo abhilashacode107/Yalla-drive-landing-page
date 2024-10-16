@@ -82,6 +82,9 @@ header .container {
     .contact-content-parent{
         display: block !important;
     }
+    .service-para {
+        width: 100% !important;
+    }
 }
 
 header .logo {
